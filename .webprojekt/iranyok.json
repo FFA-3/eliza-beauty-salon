@@ -1,0 +1,36 @@
+{
+  "directions": [
+    {
+      "id": 3,
+      "slug": "ket-borut-egy-szakerto",
+      "name": "Két bőrút, egy szakértő",
+      "description": "Kiegyensúlyozott, moduláris kezdőoldal, amely már a nyitás után külön utat mutat a bőrfiatalítást keresőknek és a problémás, aknés bőrrel érkezőknek. A két tartalmi ág egy közös bőrdiagnosztikához és személyre szabott kezelési tervhez vezet; a szekciók jól tagoltak, áttekinthetők, de nem épülnek egyforma kártyák ismétlésére.",
+      "rationale": "Mindkét célcsoport egyenrangú helyet kap, miközben a központi megkülönböztető elem — a bőr állapotára szabott szakértői terv — összeköti őket. A moduláris szerkezet gyorsan elvezeti a látogatót a számára releváns kezelésekhez és az időpontkéréshez.",
+      "palette": {
+        "primary": "#8E4A5A",
+        "secondary": "#F1E6DF",
+        "accent": "#C9A27E",
+        "bg": "#FAF6F2",
+        "surface": "#FFFFFF",
+        "text": "#2E2626",
+        "muted": "#6B5F5C"
+      },
+      "fonts": {
+        "heading": { "family": "Cormorant Garamond", "fallback": "Georgia, serif" },
+        "body": { "family": "Jost", "fallback": "system-ui, sans-serif" },
+        "google_fonts_url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@400;500&display=swap"
+      },
+      "contrast_axes": {
+        "density": "balanced",
+        "typography": "strong-display-serif + readable-humanist-sans",
+        "hero": "centered-typographic-with-dual-paths",
+        "visual_metaphor": "two-paths-one-expert",
+        "section_rhythm": "modular-alternating",
+        "shape_language": "mixed-soft-radius-and-open-layout",
+        "evidence_style": "testimonial-and-expertise"
+      }
+    }
+  ],
+  "total": 1,
+  "selected_from": 3
+}
