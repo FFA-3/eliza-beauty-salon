@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ffa-3.github.io/eliza-beauty-salon/sitemap.xml
