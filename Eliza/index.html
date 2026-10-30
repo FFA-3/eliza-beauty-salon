@@ -16,6 +16,7 @@
   <meta property="og:image" content="https://eliza-beauty-salon-3ac365.netlify.app/images/optimized/hero-letoltes.webp">
   <meta property="og:image:alt" content="Női arc virágok között, szépségápolási hangulatkép">
   <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="tailwind-utilities.css">
 
   <script type="application/ld+json">
   {
@@ -52,28 +53,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@400;500&display=swap" rel="stylesheet">
 
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            'brand-primary': 'var(--color-brand-primary)',
-            'brand-secondary': 'var(--color-brand-secondary)',
-            'brand-accent': 'var(--color-brand-accent)',
-            'brand-bg': 'var(--color-brand-bg)',
-            'brand-surface': 'var(--color-brand-surface)',
-            'brand-text': 'var(--color-brand-text)',
-            'brand-muted': 'var(--color-brand-muted)',
-          },
-          fontFamily: {
-            heading: 'var(--font-heading)',
-            body: 'var(--font-body)',
-          },
-        },
-      },
-    };
-  </script>
   <style>
     :root {
       --color-brand-primary: #8E4A5A;
@@ -290,13 +269,13 @@
     .footer-main { display: grid; grid-template-columns: 1.1fr .8fr 1fr; gap: 3rem; padding-bottom: 2.5rem; }
     .footer-brand img { width: 145px; height: auto; filter: brightness(0) invert(1); opacity: .94; }
     .footer-brand p { max-width: 340px; color: #FAF6F2; font-size: .9rem; line-height: 1.7; }
-    .footer-title { margin: .2rem 0 1rem; color: #E7CBB3; font-size: .85rem; font-weight: 500; }
+    .footer-title { margin: .2rem 0 1rem; color: #FAF6F2; font-size: .85rem; font-weight: 500; }
     .footer-links { display: grid; gap: .65rem; }
     .footer-links a, .footer-links span { width: fit-content; color: #FAF6F2; font-size: .88rem; text-decoration: none; }
     .footer-links a:hover { color: white; text-decoration: underline; text-underline-offset: 3px; }
     .footer-bottom { display: flex; justify-content: space-between; gap: 1.5rem; padding-top: 1rem; border-top: 1px solid rgba(250,246,242,.4); color: #FAF6F2; font-size: .78rem; }
     .footer-bottom p { margin: 0; }
-    .demo-notice { margin-top: .8rem; color: #E7CBB3; font-size: .76rem; }
+    .demo-notice { margin-top: .8rem; color: #FAF6F2; font-size: .76rem; }
     .scroll-reveal { opacity: 0; transform: translateY(22px); transition: opacity .8s var(--ease-calm), transform .8s var(--ease-calm); }
     .scroll-reveal.is-visible { opacity: 1; transform: translateY(0); }
     .scroll-reveal[data-reveal="from-left"] { transform: translateX(-26px); }
@@ -409,7 +388,7 @@
   <header class="site-header fixed inset-x-0 top-0 z-50">
     <div class="section-shell site-header-inner flex min-h-[82px] items-center justify-between gap-6">
       <a class="brand-mark" href="#kezdo" aria-label="Eliza Beauty Salon, kezdőlap">
-        <img src="images/logo.svg" alt="Eliza Beauty Salon">
+        <img src="images/logo.svg" alt="Eliza Beauty Salon" width="376" height="206">
       </a>
       <nav class="desktop-nav flex items-center gap-8 text-sm" aria-label="Fő navigáció">
         <a class="nav-link" href="#kezdo" aria-current="page">Főoldal</a>
@@ -446,7 +425,7 @@
         </div>
 
         <figure class="hero-visual hero-enter">
-          <div class="hero-visual-frame"><img src="images/optimized/hero-letoltes.webp" alt="Női arc virágok között, szépségápolási hangulatkép" width="736" height="1104" fetchpriority="high"></div>
+          <div class="hero-visual-frame"><img src="images/optimized/hero-letoltes.webp" srcset="images/optimized/hero-letoltes-480.webp 480w, images/optimized/hero-letoltes.webp 736w" sizes="(max-width: 640px) 100vw, 520px" alt="Női arc virágok között, szépségápolási hangulatkép" width="736" height="1104" fetchpriority="high"></div>
           <figcaption class="hero-image-note">Személyre szabott figyelem, a bőröd állapotához igazítva</figcaption>
         </figure>
 
@@ -648,7 +627,7 @@
     <div class="section-shell">
       <div class="footer-main">
         <div class="footer-brand">
-          <a class="brand-mark" href="index.html#kezdo" aria-label="Eliza Beauty Salon, vissza a lap tetejére"><img src="images/logo.svg" alt="Eliza Beauty Salon"></a>
+          <a class="brand-mark" href="index.html#kezdo" aria-label="Eliza Beauty Salon, vissza a lap tetejére"><img src="images/logo.svg" alt="Eliza Beauty Salon" width="376" height="206"></a>
           <p>Személyre szabott kozmetikai kezelések bőrfiatalításra és problémás bőr kezelésére, modern technológiákkal és természetes hatóanyagokkal.</p>
           <p class="demo-notice">A feltüntetett cím, telefonszám és e-mail tesztadat.</p>
         </div>
