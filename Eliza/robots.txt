@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ffa-3.github.io/eliza-beauty-salon/sitemap.xml
+Sitemap: https://eliza-beauty-salon-3ac365.netlify.app/sitemap.xml
